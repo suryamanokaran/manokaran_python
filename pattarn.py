@@ -10,3 +10,4 @@ a=0
 for y in range(1,11,1):
     a=a+y
 print(a)
+print("vanakkam")
