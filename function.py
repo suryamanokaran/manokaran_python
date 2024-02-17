@@ -68,3 +68,20 @@ def pow1(a,b):
     else:
         return a*pow1(a,b-1)
     print(pow1(2,2))
+
+
+#Try exception
+try:
+    a=4
+    b=0
+    print(a+b)
+except:
+    print("Error accored")
+#finally exception
+finally:
+    print("finish")
+
+from formulas import cyrcle
+print(cyrcle.area(8))
+from formulas import triangle
+print(triangle.area(3,5))
